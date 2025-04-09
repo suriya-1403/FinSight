@@ -138,7 +138,7 @@ pip install -r requirements.txt
 You can also run the system from the command line:
 
 ```bash
-python finsight/main.py --query "What are the risks for Tesla in Q2?" --use_agents
+python -m finsight.main --query "What are the risks for Tesla in Q2?" --use_agents
 ```
 ### CLI Options
 
